@@ -5,7 +5,7 @@ body {
 
 .topNav{
     overflow: hidden;
-    background-color: rgb(6, 73, 73);
+    background-color: rgb(29, 131, 190);
 }
 
 .topNav a{
@@ -23,7 +23,7 @@ body {
 }
 
 .topNav a.active{
-    background-color: rgb(74, 226, 176);
+    background-color: rgb(133, 167, 194);
     color: #ffffff;
 }
 
@@ -32,11 +32,15 @@ body {
     color: black;
 }
 
+.centering h1{
+    padding-left: 20%;
+}
+
 .centering img{
+    padding-left: 10%;
     width: 30%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    
     opacity: 0.5;
-    border-radius: 50%;
+   
 }
